@@ -29,10 +29,3 @@ class TwoSum:
             self.record[ele] += 1
         return False
         # write your code here
-
-obj = TwoSum()
-obj.add(2)
-obj.add(3)
-obj.find(4)
-obj.find(5)
-print(obj.find(6))
